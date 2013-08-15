@@ -25,4 +25,4 @@ requires:
 resources:
   homepage: https://github.com/chilts/Net-BrowserID-Verify
   repository: git://github.com/chilts/Net-BrowserID-Verify.git
-version: 0.001
+version: 0.002
