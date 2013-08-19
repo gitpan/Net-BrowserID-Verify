@@ -28,10 +28,11 @@ my %WriteMakefileArgs = (
     "Exporter" => 0,
     "HTTP::Request::Common" => 0,
     "JSON::Any" => 0,
+    "LWP::Protocol::https" => 0,
     "LWP::UserAgent" => 0,
     "Mouse" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }

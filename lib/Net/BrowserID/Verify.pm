@@ -6,12 +6,13 @@
 
 package Net::BrowserID::Verify;
 {
-  $Net::BrowserID::Verify::VERSION = '0.002';
+  $Net::BrowserID::Verify::VERSION = '0.003';
 }
 use Mouse; # use strict/warnings
 use Carp;
 use Exporter qw(import);
 
+use LWP::Protocol::https;
 use LWP::UserAgent;
 use JSON::Any;
 use HTTP::Request::Common qw(POST);
@@ -79,7 +80,7 @@ Net::BrowserID::Verify - Verify BrowserID assertions.
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 

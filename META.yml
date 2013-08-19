@@ -20,9 +20,10 @@ requires:
   Exporter: 0
   HTTP::Request::Common: 0
   JSON::Any: 0
+  LWP::Protocol::https: 0
   LWP::UserAgent: 0
   Mouse: 0
 resources:
   homepage: https://github.com/chilts/Net-BrowserID-Verify
   repository: git://github.com/chilts/Net-BrowserID-Verify.git
-version: 0.002
+version: 0.003

@@ -25,6 +25,7 @@
             "Exporter" : "0",
             "HTTP::Request::Common" : "0",
             "JSON::Any" : "0",
+            "LWP::Protocol::https" : "0",
             "LWP::UserAgent" : "0",
             "Mouse" : "0"
          }
@@ -46,6 +47,6 @@
          "web" : "https://github.com/chilts/Net-BrowserID-Verify"
       }
    },
-   "version" : "0.002"
+   "version" : "0.003"
 }
 
